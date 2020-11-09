@@ -1,0 +1,24 @@
+nav {
+    width: 100%;
+    height: 150px;
+    background-color: #102542;
+    text-align: center;
+}
+.first-ul {
+
+}
+ul, li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+}
+ul, li, a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 25px;
+    color: #EFF1C5;
+}
+
+ul, li, a:hover {
+    color: white;
+}
