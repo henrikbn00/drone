@@ -7,25 +7,85 @@ nav {
     height: 150px;
     background-color: #102542;
     text-align: center;
-}
-.first-ul {
+
 
 }
-ul, li{
-    list-style: none;
+
+nav ul{
+    list-style-type: none;
+    padding: 50px;
+
+
+}
+
+
+ul li {
     display: inline-block;
-    line-height: 100px;
-}
-ul, li, a {
-    text-decoration: none;
-    font-size: 20px;
-    padding: 0 25px;
-    color: #EFF1C5;
 }
 
-ul, li, a:hover {
-    color: white;
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 100px;
+    border: 2px solid #cccccc;
+
+    text-transform: uppercase;
 }
+
+a.active, a:hover{
+    background-color: #000;
+    color: 000;
+    transition: .5s;
+
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 25px;
+    line-height: 30px;
+    display: none;
+    float: right;
+}
+
+#toggle{
+    display: none;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width: 600px) {
+label{
+    display: block;
+    cursor: pointer;
+
+}
+    ul li{
+        text-align: center;
+        width: 100%;
+        
+
+
+
+
+    }
+
+    ul li a{
+        display: block;
+        border-bottom: 1px solid #ffffff;
+        margin: 0;
+
+    }
+
+
+
+
+
+}
+
+
 
 
 
