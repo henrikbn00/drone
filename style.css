@@ -27,3 +27,85 @@ ul, li, a:hover {
     color: white;
 }
 
+
+
+.container-1 div{
+    border: 1px #ccc solid;
+    padding: 10px;
+    width: 60%;
+}
+
+.box-1{
+
+}
+
+@media (min-width: 1000px) {
+    .container-1 {
+
+                  }
+.container-2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px
+
+      }
+
+.container-3{
+
+}
+
+
+ }
+
+
+.container-2 div{
+    border: 1px #ccc solid;
+    padding: 10px;
+
+    
+    
+
+}
+
+.box-2{
+    flex: 1;
+   
+
+    
+
+}
+
+.box-3{
+          flex: 1;
+
+
+}
+
+.box-4{
+       flex: 1;
+
+
+}
+
+.box-5{
+    flex: 1;
+
+
+}
+
+.box-6{
+   flex: 1;
+
+
+}
+
+.container-3 div{
+    border: 1px #ccc solid;
+    padding: 10px;
+    width: 60%;
+
+}
+
+.box-7{
+
+}
