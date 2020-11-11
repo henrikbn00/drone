@@ -56,7 +56,7 @@ label {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 label{
     display: block;
     cursor: pointer;
@@ -99,7 +99,7 @@ label{
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
     .container-1 {
 
                   }
@@ -129,6 +129,7 @@ label{
 
 .box-2{
     flex: 1;
+    
    
 
     
