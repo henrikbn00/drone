@@ -101,6 +101,9 @@ label{
 
 @media (min-width: 700px) {
     .container-1 {
+        margin-top: 100px;
+        margin-left: 350px;
+
 
                   }
 .container-2{
@@ -111,6 +114,9 @@ label{
       }
 
 .container-3{
+
+    margin-top: 150px;
+    margin-left: 350px;
 
 }
 
@@ -173,4 +179,10 @@ label{
 
 .box-7{
 
+}
+
+.image{
+    position: absolute;
+    margin-top: 50px;
+    right: 40%;
 }
