@@ -34,7 +34,7 @@ ul li a {
 
 a.active, a:hover{
     background-color: #000;
-    color: 000;
+    color: #ffffff;
     transition: .5s;
 
 }
@@ -129,7 +129,8 @@ label{
 
 .box-2{
     flex: 1;
-    
+    background-color: lightblue;
+
    
 
     
@@ -137,25 +138,28 @@ label{
 }
 
 .box-3{
-          flex: 1;
+    flex: 1;
+    background-color: lightblue;
 
 
 }
 
 .box-4{
        flex: 1;
-
+    background-color: lightblue;
 
 }
 
 .box-5{
     flex: 1;
+    background-color: lightblue;
 
 
 }
 
 .box-6{
    flex: 1;
+    background-color: lightblue;
 
 
 }
