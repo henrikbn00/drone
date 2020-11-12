@@ -55,8 +55,12 @@ label {
     margin: 0 auto;
 
 }
+.flex-menu{
+    display: flex;
+}
 
 @media screen and (max-width: 1000px) {
+
 
 
     label{
@@ -65,7 +69,12 @@ label {
 
 label{
     display: block;
-    cursor: pointer;
+    cursor: pointer;}
+
+    label{
+        display: block;
+        cursor: pointer;
+
 
     }
     ul li{
@@ -87,6 +96,7 @@ label{
 
 }
 
+
    
 
 
@@ -102,35 +112,26 @@ label{
 .container-1 div{
     border: 1px #ccc solid;
     padding: 10px;
-    width: 60%;
+    width: 60%;}
+
+p {
+    font-family: Bahnschrift;
+    text-align: center;
+    font-size: larger;
+
 }
-
-.box-1{
-
+h1, h2 {
+    font-family: Bahnschrift;
+    text-align: center;
 }
-
-@media (min-width: 700px) {
-    .container-1 {
-
-                  }
-.container-2{
-    display: flex;
-    flex-direction: row;
-    margin-top: 150px
-
-      }
-
-.container-3{
-
+.useful-list{
+    font-family: Bahnschrift;
+    font-size: larger;
 }
 
 
- }
 
 
-.container-2 div{
-    border: 1px #ccc solid;
-    padding: 10px;
 
 
 
@@ -147,39 +148,79 @@ label{
 
 
 
-}
 
-.box-3{
-          flex: 1;
-
-
-}
-
-.box-4{
-       flex: 1;
-
+.box {
+    border: 1px solid black;
+    width: 200px;
+    background-color: #6CBEED;
+    padding: 15px;
 
 }
-
-.box-5{
-    flex: 1;
-
-
-}
-
-.box-6{
-   flex: 1;
-
+.box-1 {
+    border: 2px solid black;
+    width: 800px;
+    background-color: #6CBEED;
+    padding: 20px;
 
 }
-
-.container-3 div{
-    border: 1px #ccc solid;
-    padding: 10px;
-    width: 60%;
-
+box-2 {
+    border: 2px solid black;
+    width: 800px;
+    background-color: #6CBEED;
+    padding: 5px;
 }
+.box-wrapper-row {
+    border: 2px solid black;
+    width: 100%;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+@media screen and (max-width: 430px)
+{
+    label{
+        display: block;
+        cursor: pointer;
 
-.box-7{
+    }
+    ul li{
+        text-align: center;
+        width: 100%;
+    }
+
+    ul li a{
+        display: block;
+        border-bottom: 1px solid #ffffff;
+        margin: 0;
+
+    }
+    .flex-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-wrapper-row {
+        border: 2px solid black;
+        width: 100%;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: white;
+
+    }
+
+    .box-1 {
+        border: 1px solid black;
+        width: 60%;
+        background-color: #6CBEED;
+        padding: 10px;
+
+
+    }}
+@media screen and (min-width: 800px) {
 
 }
