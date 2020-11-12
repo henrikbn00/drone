@@ -34,7 +34,7 @@ ul li a {
 
 a.active, a:hover{
     background-color: #000;
-    color: #ffffff;
+    color: #000;
     transition: .5s;
 
 }
@@ -57,9 +57,15 @@ label {
 }
 
 @media screen and (max-width: 1000px) {
+
+
     label{
         display: inline-block;
-        cursor: pointer;
+        cursor: pointer;}
+
+label{
+    display: block;
+    cursor: pointer;
 
     }
     ul li{
@@ -105,13 +111,8 @@ label {
 
 @media (min-width: 700px) {
     .container-1 {
-        margin-top: 100px;
-        margin-left: 350px;
-
-
 
                   }
-
 .container-2{
     display: flex;
     flex-direction: row;
@@ -120,9 +121,6 @@ label {
       }
 
 .container-3{
-
-    margin-top: 150px;
-    margin-left: 350px;
 
 }
 
@@ -141,7 +139,9 @@ label {
 
 .box-2{
     flex: 1;
+
     background-color: lightblue;
+
 
 
 
@@ -150,28 +150,25 @@ label {
 }
 
 .box-3{
-    flex: 1;
-    background-color: lightblue;
+          flex: 1;
 
 
 }
 
 .box-4{
        flex: 1;
-    background-color: lightblue;
+
 
 }
 
 .box-5{
     flex: 1;
-    background-color: lightblue;
 
 
 }
 
 .box-6{
    flex: 1;
-    background-color: lightblue;
 
 
 }
@@ -185,8 +182,4 @@ label {
 
 .box-7{
 
-
 }
-
-
-
