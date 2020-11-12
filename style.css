@@ -57,14 +57,11 @@ label {
 }
 
 @media screen and (max-width: 1000px) {
-
-}
-
     label{
-    display: block;
-    cursor: pointer;
+        display: inline-block;
+        cursor: pointer;
 
-}
+    }
     ul li{
         text-align: center;
         width: 100%;
@@ -81,6 +78,10 @@ label {
         margin: 0;
 
     }
+
+}
+
+   
 
 
 
@@ -133,8 +134,8 @@ label {
     border: 1px #ccc solid;
     padding: 10px;
 
-    
-    
+
+
 
 }
 
@@ -142,9 +143,9 @@ label {
     flex: 1;
     background-color: lightblue;
 
-   
 
-    
+
+
 
 }
 
