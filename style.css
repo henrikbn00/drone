@@ -58,6 +58,17 @@ label {
 .flex-menu{
     display: flex;
 }
+.contactInformation{
+    border: 2px solid black;
+    width: 100%;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #6CBEED;
+
+}
 
 @media screen and (max-width: 1000px) {
 
@@ -224,3 +235,4 @@ box-2 {
 @media screen and (min-width: 800px) {
 
 }
+
