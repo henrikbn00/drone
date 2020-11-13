@@ -33,7 +33,7 @@ ul li a {
 }
 
 a.active, a:hover{
-    background-color: #000;
+    background-color: #fff;
     color: #000;
     transition: .5s;
 
@@ -147,12 +147,11 @@ h1, h2 {
 
 
 
-}
 
 .box-2{
     flex: 1;
 
-    background-color: lightblue;
+    background-color: lightblue;}
 
 
 
@@ -190,28 +189,31 @@ box-2 {
     justify-content: space-around;
     background-color: white;
 }
-@media screen and (max-width: 430px)
-{
-    label{
+@media screen and (max-width: 430px) {
+
+    label {
         display: block;
         cursor: pointer;
 
     }
-    ul li{
+
+    ul li {
         text-align: center;
         width: 100%;
     }
 
-    ul li a{
+    ul li a {
         display: block;
         border-bottom: 1px solid #ffffff;
         margin: 0;
 
     }
-    .flex-menu{
+
+    .flex-menu {
         display: flex;
         flex-direction: column;
     }
+
     .box-wrapper-row {
         border: 2px solid black;
         width: 100%;
@@ -231,7 +233,8 @@ box-2 {
         padding: 10px;
 
 
-    }}
+    }
+}
 @media screen and (min-width: 800px) {
 
 }
