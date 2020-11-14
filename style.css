@@ -61,11 +61,11 @@ label {
 .contactInformation{
     border: 2px solid black;
     width: 100%;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #6CBEED;
 
 }
